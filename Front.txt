@@ -1,0 +1,48 @@
+FRONT END
+
+html-hypertext markup language (skeleton)
+css-cascade sytle sheet (design)
+js-java script (functionality)
+
+jetbrains webstorm, sublime text, atom ide,vs code (IDE for front)
+
+(auto rename tag extension)
+(copilot extension) (folderde gitbashde code . vscode aciir)
+
+main page-->index.html
+
+! tab=>main skeleton
+
+self closed tag-no need to close the tag
+open closed tag-there exist some closing tags
+
+ekrandaki goruntuler <body>........</body>
+external links <head>........</head>
+
+<html lang="en">   lang=> attribute/ opening tagde yazilir
+
+h1,h2....h6 (h1 biggest)
+(titles are written here search filterler ucun bele yaziriq)
+
+block element tags-butun setri tutur (h1,p)
+in-line element tags-yanindan yazila biler (span,a,img)
+
+<p>text here</p> (paragraph) (bosluqlari silir)
+<span>  p icinde rengi deyismek ucun secdiyin text </span> (p arasinda tag acilir ve ozellik verilir)
+
+<hr>  xett cekmek ucun yazilir self closeddi
+
+<pre> ferqli fontda p texti </pre>
+
+<a style="text-doceration: none" target="blank "href="link destination"> lorem link</a>  (lorem linke basanda yazdigin linke gedecek) (target self olsa hemin sehifede acilacaq blank oldugu ucun burda yeni tab acilacag)
+text doceration default underlinedi
+
+<img src="sekli goturmek istediyin link" alt="photo description in case if photo doesnt open">
+
+<br> p icinde tekce yazilir yazildigi yerden new line basladir
+
+b,strong =>bold yazi
+<sub> kicik asagida index kimi </sub> (sup tam tersi)
+<del> ustunde xett </del>
+
+
