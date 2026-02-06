@@ -1,25 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
 
-        <!-- device sizeina adjustable olsun deye -->
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
-        <!--en basda gorunen saytin adi-->
-        <title>Document</title>
+<head>
+    <meta charset="UTF-8">
 
-        <!--en badaki saytin adinin yaninda icon-->
-        <link rel="icon" href="somelink">
-        
+    <!-- device sizeina adjustable olsun deye -->
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <!--en basda gorunen saytin adi-->
+    <title>Document</title>
 
-        <!-- description abt page, brause edende bu contente uygun saytin cixacag -->
-        <meta name="description" content="blabla">
-        <meta name="keyword" content="blabla">
-        
+    <!--en badaki saytin adinin yaninda icon-->
+    <link rel="icon" href="somelink">
 
-    </head> 
+
+    <!-- description abt page, brause edende bu contente uygun saytin cixacag -->
+    <meta name="description" content="blabla">
+    <meta name="keyword" content="blabla">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        marquee {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
 
 <body>
-    
+
+    <table border="1" style="border-collapse: collapse;">
+        <!-- main column names -->
+        <thead>
+            <th>name</th>
+            <th>surname</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <form action="backend location" method="post">
+        <!-- method get olarsa password vs aciq bir sekilde gedir post olduqda gizli olur -->
+        <label for="username">Username</label> <br>
+        <input type="text" id="username" name="username" placeholder=" Enter username" autocomplete="off""> <br>
+        <label for=" password">Password</label> <br>
+        <input type="password" id="password" name="password" placeholder=" Enter password" minlength="8"> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email" placeholder=" Enter email"> <br>
+        <label for="photo">Photo</label> <br>
+        <input style="display:none;" accept="image/*" multiple type="file" id="photo" name="photo"> <br>
+        <!-- display yerine sekil qoyurlar ona basanda ui maraqli sekilde input edir -->
+        <label for="color">Color</label> <br>
+        <input type="color" id="color" name="color"> <br><br>
+        <button type="submit">Login</button>
+        <label for="date">Date</label> <br>
+        <input type="date" id="date" name="date"> <br>
+        <label for="age">Age</label> <br>
+        <input type="number" step="2" min="0" max="80" id="age" name="age" placeholder=" Enter age"> <br>
+        <!-- type submit olmalidi ki islesin -->
+        <!-- submit buttonu formu backende gonderir -->
+        <button type="reset">Reset</button>
+    </form>
+
+
+    <marquee behavior="" direction="" style="color: aqua;">BLA BLA</marquee>
+
 </body>
+
 </html>

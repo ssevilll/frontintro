@@ -1,0 +1,61 @@
+CSS INTRO
+cascading style sheets
+
+1. inline
+2. internal
+3. external
+
+inline>internal>external (effectwise)
+
+
+inline 
+<marquee behavior="" direction="" style="color: aqua;">BLA BLA</marquee>
+
+internal
+    <style>
+        marquee {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+htmlin head yerinde
+
+
+external
+extra file yaradilib orda yazilir
+
+external yazdiqda head terefde
+    <link rel="stylesheet" href="style.css">
+yazilmalidir
+
+
+
+**selectors**
+select by id,class,tag
+
+tagname {
+style....
+}
+
+#idname{
+style....
+}
+
+.classname {
+style....
+}
+
+* {
+style...
+}
+//style will be applied to everything
+
+
+
+
+
+
+
+
+
+
